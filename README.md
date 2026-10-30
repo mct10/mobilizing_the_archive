@@ -5,7 +5,7 @@
 ## Overview
 We explore the potential of archival linguistic resources as a source of parallel text for extremely low-resource languages. 
 These resources offer parallel data for languages under-represented online and could potentially scale to thousands more languages. 
-Our approach leverages an Optical Character Recognition (OCR) model as well as a vision language model (VLM) to extract translation pairs, relying on the visual layout information of documents.
+Our approach leverages an Optical Character Recognition (OCR) model as well as a vision language model (VLM) to extract translation pairs from [The DReaM Corpus](https://aclanthology.org/2020.lrec-1.110/), relying on the visual layout information of documents.
 
 This repository provides:
 - Extracted bitext for 20 languages, with no overlaps with the dev/test sets used in our paper
